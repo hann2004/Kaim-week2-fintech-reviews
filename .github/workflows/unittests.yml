@@ -40,3 +40,6 @@ jobs:
         [ -f "README.md" ] && echo "✓ README.md exists" || exit 1
         [ -f "src/data_collection/scraper.py" ] && echo "✓ scraper.py exists" || exit 1
         echo "✓ Project structure verified"
+    - name: Test database imports
+      run: |
+        python -c "import psycopg2; from dotenv import load_dotenv; print('✓ Database imports successful')"
