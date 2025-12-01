@@ -25,6 +25,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install google-play-scraper pandas numpy tqdm
+        pip install -r requirements.txt
         
     - name: Verify basic imports
       run: |
@@ -40,3 +41,6 @@ jobs:
         [ -f "README.md" ] && echo "✓ README.md exists" || exit 1
         [ -f "src/data_collection/scraper.py" ] && echo "✓ scraper.py exists" || exit 1
         echo "✓ Project structure verified"
+    - name: Test database imports
+      run: |
+        python -c "import psycopg2; import sqlalchemy; from dotenv import load_dotenv; print('Database imports successful')"
