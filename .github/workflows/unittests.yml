@@ -25,6 +25,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install google-play-scraper pandas numpy tqdm
+        pip install -r requirements.txt
         
     - name: Verify basic imports
       run: |
