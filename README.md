@@ -1,11 +1,7 @@
-Alright Nanaaa, I cleaned it up perfectly — no backticks, no extra spacing, no explanation — **just a clean, copy-paste-ready `README.md`** exactly as GitHub expects.
-You can literally copy from below and paste directly into your repo.
-
----
 
 # Fintech App Reviews Analytics: Customer Insights for Ethiopian Banks
 
-[![CI](https://github.com/YOUR_USERNAME/Kaim-week2-fintech-reviews/actions/workflows/unittests.yml/badge.svg)]()
+[![CI](https://github.com/hann2004/Kaim-week2-fintech-reviews/actions/workflows/unittests.yml/badge.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)]()
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-blue?logo=postgresql)]()
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)]()
